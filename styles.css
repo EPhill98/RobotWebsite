@@ -1,0 +1,367 @@
+
+/*shared accros pages*/
+body{
+    text-align: center;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+}
+.roList{
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#7DE2D1;
+    color: white; 
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+}
+#robotL{
+    text-align: left; 
+}
+.backGimg{
+    border: black solid 10px;
+}
+.banner{
+    height: 311px;
+    width: auto;
+    background-image: url(pictures/farmer-standing-rice-field-with-tablet.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin: 0 auto;
+    border: solid 10px;
+    border-bottom: none;
+}
+.banner .frontPageHead{
+    border: 10px solid white;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 40px;
+    padding: 20px;
+    width: 600px;
+    color: #339989;
+    font-size: 40px;
+    position: relative;
+    top: 150px;
+    left: 10px;
+    text-align: center
+}
+#bottom_b{
+    height: 400px;
+    width: 100%;
+    background-image: url(pictures/pollinate-fruits-vegetables-with-robot_34200-372.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin: 0 auto;
+}
+#bottom_b #bottom_text{
+    background-color: white; 
+    border: solid white 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    top: 30px;
+    margin: auto;
+    color: #339989;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.flx_side{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+/*nav dropdown code*/ 
+.nav {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    float: left; 
+    margin: 20px auto;
+}
+#menuButton{
+    font-size: 35px;
+    width: 200px;
+    color: #339989;
+    border: #339989 10px solid;
+    border-radius: 10px;
+}
+.nav li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.nav a {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background-color: #339989;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #fff;
+    background-color: #7DE2D1;
+    text-decoration: underline;
+}
+.nav ul{
+    background-color: white;
+
+    position: absolute;
+    left: -9999px;
+    list-style: none;
+}
+.nav ul li{
+    padding-top: 1px;
+    float: none;
+}
+.nav ul a {
+    white-space: nowrap;
+}
+.nav li:hover ul {
+    left: 0;
+}
+.nav li:hover a{
+    background-color:#75B9BE;
+    text-decoration: underline;
+}
+
+.nav li:hover ul li a:hover{
+    background-color:#B33951;
+}
+/*index page code*/
+.main{
+    text-align: center;
+    background-color:white;
+    border: 10px solid white;
+    width: 50%;
+    margin: 50px auto;
+    left: 50%;   
+}
+.main h2{
+    width: 800px;
+    padding: 20px;
+    margin: 100 auto;
+    border-radius: 10px;
+}
+.main .mainText{
+    margin: 25px auto;
+    color: #339989;
+    font-size: 20px;
+}
+.main .pic{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    border-radius: 50%;
+}
+#frontPage h2{
+    color: white; 
+    background-color:#339989;
+    border: white 10px solid;
+    border: 10px;
+    font-size: 50px;
+}
+#frontPage .main h3{
+    color: white; 
+    background-color: #339989;
+    width: 300px;
+    margin: auto;
+    border-top:white solid 5px;
+    border-bottom:white solid 5px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+ 
+#frontPage #page_title{
+    margin: 200px auto;
+    padding: 20px;
+    width: 800px;
+    border: #339989 10px solid; 
+    border-radius: 10px;
+}
+ /*robots page code*/
+ #page_robots{
+    text-align: center;
+}
+#page_robots table{
+    border: solid #B33951 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    font-size: large;
+    text-align: justify;
+    background-color: white;
+    margin: 200px auto;  
+}
+#page_robots td{
+    border: solid black 5px;
+}
+#table_h{
+    font-size: larger;
+    text-align: center;
+}
+
+#table_data{
+    text-align: center;
+}
+.robot_text{
+    background-color:#339989;
+    color: white; 
+    width: 800px;
+    height: 900px;
+    font-size: 25px;
+    border:#7DE2D1 10px solid;
+    border-radius: 10px;
+    margin: 60px auto;
+    padding: 30px;
+    justify-content: space-around;
+}
+#page_robots h2{
+    border: solid #7DE2D1 10px;
+    border-radius: 10px;;
+    color: #339989;
+    padding: 30px;
+    background-color: white;
+}
+/*about page code*/
+#page_about .about_h {
+    width: 500px;
+    height: 400px;
+    font-size: 25px;
+    background-color: #7DE2D1;
+    color: white;
+    border: white 5px solid;
+    border-radius: 10px;
+    margin: 30px auto;
+    margin-top: 70px;
+    padding: 20px;
+}
+#page_about .about_h p{
+    font-size: 20px;
+}
+#t_why{
+    color: white;
+    background-color: #7DE2D1;
+    border: white 10px solid;
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px auto;
+}
+#page_about .about_h h2 {
+    color: white;
+    padding: 25px;
+    font-size: 40px;   
+}
+#page_about .roList{
+    font-size: 25px;
+}
+#page_about #robotL{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+#page_about #robot_hyp :hover {
+    font-size: 50px;
+}
+ #page_about .flx_s{
+    background-color: white;
+    border: #B33951 solid 10px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    display: flex;  
+}
+#page_about .roList{
+    margin: 10px auto;
+}
+#page_about .about_main h3{
+    font-size: 30px;
+    border: white solid 5px;
+    border-radius: 10px;
+    color: white;
+    background-color:#7DE2D1;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+#page_about .about_main{
+    margin: 100px auto;
+    justify-content: center;
+}
+#page_about #mainText{
+    height: 400px;
+    width: 400px;
+    font-size: 28px;
+    padding: 25px; 
+}
+#page_about #robotL #listHYP:hover{
+    font-size: 30px;
+}
+#page_about #pic{
+    padding: 30px;
+    padding-top: 100px;
+    transition: transform .5s;
+}
+#page_about #pic:hover{
+    transform: scale(1.5);
+    border-left: none;
+}
+/* future page code*/ 
+.future_text{
+    border: black solid 5px;
+    border-radius: 5px;
+    width: 900px;
+    height: 600px;
+    background-color: #339989;
+    margin: 20px 20px;
+    padding: 15px;
+}
+.page_future h2{
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 30px;
+}
+.page_future #top{
+    background-color: #7DE2D1;
+    color: white;
+    width: 400px;
+    padding: 40px;
+    margin: 80px auto;
+    border: solid 10 white;
+    border-radius: 10px;
+}
+.page_future #top p{
+    font-size: 25px;
+}
+.future_text{
+    margin: 200px auto;
+    border: white 5px solid;
+    border-radius: 25px;
+}
+.future_text #text{
+    color: white;
+    width: 400px;
+    height: 320px;
+    margin: 20px auto;
+    border-top: none;
+    font-size: 25px;
+}
+.future_text img{
+    margin: 30px;
+    padding: 20px;
+}
+.future_text h3{
+    color: white;
+    background-color: #7DE2D1;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: auto;
+}
+#flx_cont{
+    display: flex; 
+}
